@@ -1,9 +1,14 @@
 import React from 'react'
+import Movies from './components/Movies'
+import Trailer from './components/Trailer'
+
 
 const App = () => {
   return (
-    <div>Aplicacion para Peliculas</div>
+    <>
+    <Movies />
+    <Trailer />
+    </>
   )
 }
-
 export default App
